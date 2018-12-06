@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 6138783eca9e15647aea70a4e5294a9a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: armDebris_armDebris
+    100002: armDebris_armDebris 1
+    100004: armDebris_armDebris1
+    100006: armDebris_armDebris1 1
+    100008: asteroid1_Asteroid1
+    100010: asteroid1_Asteroid1 1
+    100012: asteroid1_Asteroid2
+    100014: asteroid1_Asteroid2 1
+    100016: asteroid1_Asteroid3
+    100018: asteroid1_Asteroid3 1
+    100020: asteroid1_Asteroid5
+    100022: asteroid1_Asteroid5 1
+    100024: asteroid2_Asteroid10
+    100026: asteroid2_Asteroid10 1
+    100028: asteroid2_Asteroid2
+    100030: asteroid2_Asteroid2 1
+    100032: asteroid2_Asteroid3
+    100034: asteroid2_Asteroid3 1
+    100036: asteroid2_Asteroid4
+    100038: asteroid2_Asteroid4 1
+    100040: asteroid2_Asteroid6
+    100042: asteroid2_Asteroid6 1
+    100044: asteroid2_Asteroid7
+    100046: asteroid2_Asteroid7 1
+    100048: asteroid2_Asteroid8
+    100050: asteroid2_Asteroid8 1
+    100052: asteroid2_Asteroid9
+    100054: asteroid2_Asteroid9 1
+    100056: boundaries
+    100058: cubeDebris_SpaceDebrisCube1
+    100060: cubeDebris_SpaceDebrisCube1 1
+    100062: cubeDebris_SpaceDebrisCube2
+    100064: cubeDebris_SpaceDebrisCube2 1
+    100066: cubeDebris_SpaceDebrisCube3
+    100068: cubeDebris_SpaceDebrisCube3 1
+    100070: cubeDebris_SpaceDebrisCube4
+    100072: cubeDebris_SpaceDebrisCube4 1
+    100074: cubeDebris_wire4
+    100076: cubeDebris_wire4 1
+    100078: cubeDebris_wire4 2
+    100080: cubeDebris_wire4 3
+    100082: cubeDebris_wire4 4
+    100084: cubeDebris_wire4 5
+    100086: cubeDebris_wire4 6
+    100088: cubeDebris_wire4 7
+    100090: cubeDebris_wire5
+    100092: cubeDebris_wire5 1
+    100094: cubeDebris_wire5 2
+    100096: cubeDebris_wire5 3
+    100098: cubeDebris_wire5 4
+    100100: cubeDebris_wire5 5
+    100102: cubeDebris_wire5 6
+    100104: cubeDebris_wire5 7
+    100106: cubeDebris_wire6
+    100108: cubeDebris_wire6 1
+    100110: cubeDebris_wire6 2
+    100112: cubeDebris_wire6 3
+    100114: cubeDebris_wire6 4
+    100116: cubeDebris_wire6 5
+    100118: cubeDebris_wire6 6
+    100120: cubeDebris_wire6 7
+    100122: damagedShipDebris_Ship_Debris1
+    100124: damagedShipDebris_Ship_Debris1 1
+    100126: damagedShipDebris_Ship_Debris2
+    100128: damagedShipDebris_Ship_Debris2 1
+    100130: damagedShipDebris_Ship_Debris3
+    100132: damagedShipDebris_Ship_Debris3 1
+    100134: damagedShipDebris_Ship_Debris4
+    100136: damagedShipDebris_Ship_Debris4 1
+    100138: damagedShipDebris_Ship_Debris5
+    100140: damagedShipDebris_Ship_Debris5 1
+    100142: damagedShipDebris_Ship_Debris6
+    100144: damagedShipDebris_Ship_Debris6 1
+    100146: damagedShipDebris_Ship_Debris7
+    100148: damagedShipDebris_Ship_Debris7 1
+    100150: debris_Debris1
+    100152: debris_Debris1 1
+    100154: debris_Debris2
+    100156: debris_Debris2 1
+    100158: debris_Debris3
+    100160: debris_Debris3 1
+    100162: debris_Debris4
+    100164: debris_Debris4 1
+    100166: envBorderBot
+    100168: envBorderTop
+    100170: //RootNode
+    100172: greyAsteroid_AsteroidGrey
+    100174: greyAsteroid_AsteroidGrey 1
+    100176: greyAsteroid_AsteroidGrey1
+    100178: greyAsteroid_AsteroidGrey1 1
+    100180: greyAsteroid_AsteroidGrey2
+    100182: greyAsteroid_AsteroidGrey2 1
+    100184: greyAsteroid_AsteroidGrey3
+    100186: greyAsteroid_AsteroidGrey3 1
+    100188: greyAsteroid_AsteroidGrey4
+    100190: greyAsteroid_AsteroidGrey4 1
+    100192: moreDebris_moreDebris
+    100194: moreDebris_moreDebris 1
+    100196: moreDebris_moreDebris1
+    100198: moreDebris_moreDebris1 1
+    100200: moreDebris_moreDebris2
+    100202: moreDebris_moreDebris2 1
+    100204: moreDebris_moreDebris3
+    100206: moreDebris_moreDebris3 1
+    100208: pasted__asteroid1_Asteroid4
+    100210: pasted__asteroid1_Asteroid4 1
+    100212: pasted__asteroid2_Asteroid5
+    100214: pasted__asteroid2_Asteroid5 1
+    100216: pasted__coneDebris_spaceDebrisCone
+    100218: pasted__coneDebris_spaceDebrisCone 1
+    100220: pasted__coneDebris_wire1
+    100222: pasted__coneDebris_wire1 1
+    100224: pasted__coneDebris_wire2
+    100226: pasted__coneDebris_wire2 1
+    100228: pasted__coneDebris_wire3
+    100230: pasted__coneDebris_wire3 1
+    100232: pasted__cubeDebris_SpaceDebrisCube
+    100234: pasted__cubeDebris_SpaceDebrisCube 1
+    100236: pasted__cubeDebris_wire4
+    100238: pasted__cubeDebris_wire4 1
+    100240: pasted__cubeDebris_wire5
+    100242: pasted__cubeDebris_wire5 1
+    100244: pasted__cubeDebris_wire6
+    100246: pasted__cubeDebris_wire6 1
+    100248: pasted__damagedSatallite_Satallite_Debris1
+    100250: pasted__damagedSatallite_Satallite_Debris1 1
+    100252: pasted__debris_Debris
+    100254: pasted__debris_Debris 1
+    100256: pasted__discDebris_discDebris
+    100258: pasted__discDebris_discDebris 1
+    100260: pasted__group1
+    100262: pasted__group2
+    100264: satallite_Satallite_Debris
+    100266: satallite_Satallite_Debris 1
+    100268: satallite_Satallite_Debris1
+    100270: satallite_Satallite_Debris1 1
+    100272: ship_debris2_sheetMEtal_Debris2
+    100274: ship_debris2_sheetMEtal_Debris2 1
+    100276: ship_debris2_sheetMEtal_Debris3
+    100278: ship_debris2_sheetMEtal_Debris3 1
+    100280: ship_Debris_Ship_Debris
+    100282: ship_Debris_Ship_Debris 1
+    400000: armDebris_armDebris
+    400002: armDebris_armDebris 1
+    400004: armDebris_armDebris1
+    400006: armDebris_armDebris1 1
+    400008: asteroid1_Asteroid1
+    400010: asteroid1_Asteroid1 1
+    400012: asteroid1_Asteroid2
+    400014: asteroid1_Asteroid2 1
+    400016: asteroid1_Asteroid3
+    400018: asteroid1_Asteroid3 1
+    400020: asteroid1_Asteroid5
+    400022: asteroid1_Asteroid5 1
+    400024: asteroid2_Asteroid10
+    400026: asteroid2_Asteroid10 1
+    400028: asteroid2_Asteroid2
+    400030: asteroid2_Asteroid2 1
+    400032: asteroid2_Asteroid3
+    400034: asteroid2_Asteroid3 1
+    400036: asteroid2_Asteroid4
+    400038: asteroid2_Asteroid4 1
+    400040: asteroid2_Asteroid6
+    400042: asteroid2_Asteroid6 1
+    400044: asteroid2_Asteroid7
+    400046: asteroid2_Asteroid7 1
+    400048: asteroid2_Asteroid8
+    400050: asteroid2_Asteroid8 1
+    400052: asteroid2_Asteroid9
+    400054: asteroid2_Asteroid9 1
+    400056: boundaries
+    400058: cubeDebris_SpaceDebrisCube1
+    400060: cubeDebris_SpaceDebrisCube1 1
+    400062: cubeDebris_SpaceDebrisCube2
+    400064: cubeDebris_SpaceDebrisCube2 1
+    400066: cubeDebris_SpaceDebrisCube3
+    400068: cubeDebris_SpaceDebrisCube3 1
+    400070: cubeDebris_SpaceDebrisCube4
+    400072: cubeDebris_SpaceDebrisCube4 1
+    400074: cubeDebris_wire4
+    400076: cubeDebris_wire4 1
+    400078: cubeDebris_wire4 2
+    400080: cubeDebris_wire4 3
+    400082: cubeDebris_wire4 4
+    400084: cubeDebris_wire4 5
+    400086: cubeDebris_wire4 6
+    400088: cubeDebris_wire4 7
+    400090: cubeDebris_wire5
+    400092: cubeDebris_wire5 1
+    400094: cubeDebris_wire5 2
+    400096: cubeDebris_wire5 3
+    400098: cubeDebris_wire5 4
+    400100: cubeDebris_wire5 5
+    400102: cubeDebris_wire5 6
+    400104: cubeDebris_wire5 7
+    400106: cubeDebris_wire6
+    400108: cubeDebris_wire6 1
+    400110: cubeDebris_wire6 2
+    400112: cubeDebris_wire6 3
+    400114: cubeDebris_wire6 4
+    400116: cubeDebris_wire6 5
+    400118: cubeDebris_wire6 6
+    400120: cubeDebris_wire6 7
+    400122: damagedShipDebris_Ship_Debris1
+    400124: damagedShipDebris_Ship_Debris1 1
+    400126: damagedShipDebris_Ship_Debris2
+    400128: damagedShipDebris_Ship_Debris2 1
+    400130: damagedShipDebris_Ship_Debris3
+    400132: damagedShipDebris_Ship_Debris3 1
+    400134: damagedShipDebris_Ship_Debris4
+    400136: damagedShipDebris_Ship_Debris4 1
+    400138: damagedShipDebris_Ship_Debris5
+    400140: damagedShipDebris_Ship_Debris5 1
+    400142: damagedShipDebris_Ship_Debris6
+    400144: damagedShipDebris_Ship_Debris6 1
+    400146: damagedShipDebris_Ship_Debris7
+    400148: damagedShipDebris_Ship_Debris7 1
+    400150: debris_Debris1
+    400152: debris_Debris1 1
+    400154: debris_Debris2
+    400156: debris_Debris2 1
+    400158: debris_Debris3
+    400160: debris_Debris3 1
+    400162: debris_Debris4
+    400164: debris_Debris4 1
+    400166: envBorderBot
+    400168: envBorderTop
+    400170: //RootNode
+    400172: greyAsteroid_AsteroidGrey
+    400174: greyAsteroid_AsteroidGrey 1
+    400176: greyAsteroid_AsteroidGrey1
+    400178: greyAsteroid_AsteroidGrey1 1
+    400180: greyAsteroid_AsteroidGrey2
+    400182: greyAsteroid_AsteroidGrey2 1
+    400184: greyAsteroid_AsteroidGrey3
+    400186: greyAsteroid_AsteroidGrey3 1
+    400188: greyAsteroid_AsteroidGrey4
+    400190: greyAsteroid_AsteroidGrey4 1
+    400192: moreDebris_moreDebris
+    400194: moreDebris_moreDebris 1
+    400196: moreDebris_moreDebris1
+    400198: moreDebris_moreDebris1 1
+    400200: moreDebris_moreDebris2
+    400202: moreDebris_moreDebris2 1
+    400204: moreDebris_moreDebris3
+    400206: moreDebris_moreDebris3 1
+    400208: pasted__asteroid1_Asteroid4
+    400210: pasted__asteroid1_Asteroid4 1
+    400212: pasted__asteroid2_Asteroid5
+    400214: pasted__asteroid2_Asteroid5 1
+    400216: pasted__coneDebris_spaceDebrisCone
+    400218: pasted__coneDebris_spaceDebrisCone 1
+    400220: pasted__coneDebris_wire1
+    400222: pasted__coneDebris_wire1 1
+    400224: pasted__coneDebris_wire2
+    400226: pasted__coneDebris_wire2 1
+    400228: pasted__coneDebris_wire3
+    400230: pasted__coneDebris_wire3 1
+    400232: pasted__cubeDebris_SpaceDebrisCube
+    400234: pasted__cubeDebris_SpaceDebrisCube 1
+    400236: pasted__cubeDebris_wire4
+    400238: pasted__cubeDebris_wire4 1
+    400240: pasted__cubeDebris_wire5
+    400242: pasted__cubeDebris_wire5 1
+    400244: pasted__cubeDebris_wire6
+    400246: pasted__cubeDebris_wire6 1
+    400248: pasted__damagedSatallite_Satallite_Debris1
+    400250: pasted__damagedSatallite_Satallite_Debris1 1
+    400252: pasted__debris_Debris
+    400254: pasted__debris_Debris 1
+    400256: pasted__discDebris_discDebris
+    400258: pasted__discDebris_discDebris 1
+    400260: pasted__group1
+    400262: pasted__group2
+    400264: satallite_Satallite_Debris
+    400266: satallite_Satallite_Debris 1
+    400268: satallite_Satallite_Debris1
+    400270: satallite_Satallite_Debris1 1
+    400272: ship_debris2_sheetMEtal_Debris2
+    400274: ship_debris2_sheetMEtal_Debris2 1
+    400276: ship_debris2_sheetMEtal_Debris3
+    400278: ship_debris2_sheetMEtal_Debris3 1
+    400280: ship_Debris_Ship_Debris
+    400282: ship_Debris_Ship_Debris 1
+    2100000: armDebris_ShinyMetal
+    2100002: asteroid1_asteroidText
+    2100004: asteroid2_asteroidText
+    2100006: damagedShipDebris_ShinyMetal
+    2100008: cubeDebris_ShinyMetal
+    2100010: cubeDebris_lambert7
+    2100012: cubeDebris_WireColor2
+    2100014: debris_ShinyMetal
+    2100016: greyAsteroid_blinn1
+    2100018: moreDebris_ShinyMetal
+    2100020: satallite_ShinyMetal
+    2100022: ship_Debris_ShinyMetal
+    2100024: ship_debris2_ShinyMetal
+    2100026: pasted__coneDebris_ShinyMetal
+    2100028: pasted__coneDebris_lambert7
+    2100030: pasted__coneDebris_WireColor2
+    2100032: pasted__cubeDebris_ShinyMetal
+    2100034: pasted__cubeDebris_lambert7
+    2100036: pasted__cubeDebris_WireColor2
+    2100038: pasted__damagedSatallite_ShinyMetal
+    2100040: pasted__debris_ShinyMetal
+    2100042: pasted__discDebris_ShinyMetal
+    2100044: pasted__asteroid1_asteroidText
+    2100046: pasted__asteroid2_asteroidText
+    2300000: armDebris_armDebris
+    2300002: armDebris_armDebris 1
+    2300004: armDebris_armDebris1
+    2300006: armDebris_armDebris1 1
+    2300008: asteroid1_Asteroid1
+    2300010: asteroid1_Asteroid1 1
+    2300012: asteroid1_Asteroid2
+    2300014: asteroid1_Asteroid2 1
+    2300016: asteroid1_Asteroid3
+    2300018: asteroid1_Asteroid3 1
+    2300020: asteroid1_Asteroid5
+    2300022: asteroid1_Asteroid5 1
+    2300024: asteroid2_Asteroid10
+    2300026: asteroid2_Asteroid10 1
+    2300028: asteroid2_Asteroid2
+    2300030: asteroid2_Asteroid2 1
+    2300032: asteroid2_Asteroid3
+    2300034: asteroid2_Asteroid3 1
+    2300036: asteroid2_Asteroid4
+    2300038: asteroid2_Asteroid4 1
+    2300040: asteroid2_Asteroid6
+    2300042: asteroid2_Asteroid6 1
+    2300044: asteroid2_Asteroid7
+    2300046: asteroid2_Asteroid7 1
+    2300048: asteroid2_Asteroid8
+    2300050: asteroid2_Asteroid8 1
+    2300052: asteroid2_Asteroid9
+    2300054: asteroid2_Asteroid9 1
+    2300056: cubeDebris_SpaceDebrisCube1
+    2300058: cubeDebris_SpaceDebrisCube1 1
+    2300060: cubeDebris_SpaceDebrisCube2
+    2300062: cubeDebris_SpaceDebrisCube2 1
+    2300064: cubeDebris_SpaceDebrisCube3
+    2300066: cubeDebris_SpaceDebrisCube3 1
+    2300068: cubeDebris_SpaceDebrisCube4
+    2300070: cubeDebris_SpaceDebrisCube4 1
+    2300072: cubeDebris_wire4
+    2300074: cubeDebris_wire4 1
+    2300076: cubeDebris_wire4 2
+    2300078: cubeDebris_wire4 3
+    2300080: cubeDebris_wire4 4
+    2300082: cubeDebris_wire4 5
+    2300084: cubeDebris_wire4 6
+    2300086: cubeDebris_wire4 7
+    2300088: cubeDebris_wire5
+    2300090: cubeDebris_wire5 1
+    2300092: cubeDebris_wire5 2
+    2300094: cubeDebris_wire5 3
+    2300096: cubeDebris_wire5 4
+    2300098: cubeDebris_wire5 5
+    2300100: cubeDebris_wire5 6
+    2300102: cubeDebris_wire5 7
+    2300104: cubeDebris_wire6
+    2300106: cubeDebris_wire6 1
+    2300108: cubeDebris_wire6 2
+    2300110: cubeDebris_wire6 3
+    2300112: cubeDebris_wire6 4
+    2300114: cubeDebris_wire6 5
+    2300116: cubeDebris_wire6 6
+    2300118: cubeDebris_wire6 7
+    2300120: damagedShipDebris_Ship_Debris1
+    2300122: damagedShipDebris_Ship_Debris1 1
+    2300124: damagedShipDebris_Ship_Debris2
+    2300126: damagedShipDebris_Ship_Debris2 1
+    2300128: damagedShipDebris_Ship_Debris3
+    2300130: damagedShipDebris_Ship_Debris3 1
+    2300132: damagedShipDebris_Ship_Debris4
+    2300134: damagedShipDebris_Ship_Debris4 1
+    2300136: damagedShipDebris_Ship_Debris5
+    2300138: damagedShipDebris_Ship_Debris5 1
+    2300140: damagedShipDebris_Ship_Debris6
+    2300142: damagedShipDebris_Ship_Debris6 1
+    2300144: damagedShipDebris_Ship_Debris7
+    2300146: damagedShipDebris_Ship_Debris7 1
+    2300148: debris_Debris1
+    2300150: debris_Debris1 1
+    2300152: debris_Debris2
+    2300154: debris_Debris2 1
+    2300156: debris_Debris3
+    2300158: debris_Debris3 1
+    2300160: debris_Debris4
+    2300162: debris_Debris4 1
+    2300164: greyAsteroid_AsteroidGrey
+    2300166: greyAsteroid_AsteroidGrey 1
+    2300168: greyAsteroid_AsteroidGrey1
+    2300170: greyAsteroid_AsteroidGrey1 1
+    2300172: greyAsteroid_AsteroidGrey2
+    2300174: greyAsteroid_AsteroidGrey2 1
+    2300176: greyAsteroid_AsteroidGrey3
+    2300178: greyAsteroid_AsteroidGrey3 1
+    2300180: greyAsteroid_AsteroidGrey4
+    2300182: greyAsteroid_AsteroidGrey4 1
+    2300184: moreDebris_moreDebris
+    2300186: moreDebris_moreDebris 1
+    2300188: moreDebris_moreDebris1
+    2300190: moreDebris_moreDebris1 1
+    2300192: moreDebris_moreDebris2
+    2300194: moreDebris_moreDebris2 1
+    2300196: moreDebris_moreDebris3
+    2300198: moreDebris_moreDebris3 1
+    2300200: pasted__asteroid1_Asteroid4
+    2300202: pasted__asteroid1_Asteroid4 1
+    2300204: pasted__asteroid2_Asteroid5
+    2300206: pasted__asteroid2_Asteroid5 1
+    2300208: pasted__coneDebris_spaceDebrisCone
+    2300210: pasted__coneDebris_spaceDebrisCone 1
+    2300212: pasted__coneDebris_wire1
+    2300214: pasted__coneDebris_wire1 1
+    2300216: pasted__coneDebris_wire2
+    2300218: pasted__coneDebris_wire2 1
+    2300220: pasted__coneDebris_wire3
+    2300222: pasted__coneDebris_wire3 1
+    2300224: pasted__cubeDebris_SpaceDebrisCube
+    2300226: pasted__cubeDebris_SpaceDebrisCube 1
+    2300228: pasted__cubeDebris_wire4
+    2300230: pasted__cubeDebris_wire4 1
+    2300232: pasted__cubeDebris_wire5
+    2300234: pasted__cubeDebris_wire5 1
+    2300236: pasted__cubeDebris_wire6
+    2300238: pasted__cubeDebris_wire6 1
+    2300240: pasted__damagedSatallite_Satallite_Debris1
+    2300242: pasted__damagedSatallite_Satallite_Debris1 1
+    2300244: pasted__debris_Debris
+    2300246: pasted__debris_Debris 1
+    2300248: pasted__discDebris_discDebris
+    2300250: pasted__discDebris_discDebris 1
+    2300252: satallite_Satallite_Debris
+    2300254: satallite_Satallite_Debris 1
+    2300256: satallite_Satallite_Debris1
+    2300258: satallite_Satallite_Debris1 1
+    2300260: ship_debris2_sheetMEtal_Debris2
+    2300262: ship_debris2_sheetMEtal_Debris2 1
+    2300264: ship_debris2_sheetMEtal_Debris3
+    2300266: ship_debris2_sheetMEtal_Debris3 1
+    2300268: ship_Debris_Ship_Debris
+    2300270: ship_Debris_Ship_Debris 1
+    3300000: armDebris_armDebris
+    3300002: armDebris_armDebris 1
+    3300004: armDebris_armDebris1
+    3300006: armDebris_armDebris1 1
+    3300008: asteroid1_Asteroid1
+    3300010: asteroid1_Asteroid1 1
+    3300012: asteroid1_Asteroid2
+    3300014: asteroid1_Asteroid2 1
+    3300016: asteroid1_Asteroid3
+    3300018: asteroid1_Asteroid3 1
+    3300020: asteroid1_Asteroid5
+    3300022: asteroid1_Asteroid5 1
+    3300024: asteroid2_Asteroid10
+    3300026: asteroid2_Asteroid10 1
+    3300028: asteroid2_Asteroid2
+    3300030: asteroid2_Asteroid2 1
+    3300032: asteroid2_Asteroid3
+    3300034: asteroid2_Asteroid3 1
+    3300036: asteroid2_Asteroid4
+    3300038: asteroid2_Asteroid4 1
+    3300040: asteroid2_Asteroid6
+    3300042: asteroid2_Asteroid6 1
+    3300044: asteroid2_Asteroid7
+    3300046: asteroid2_Asteroid7 1
+    3300048: asteroid2_Asteroid8
+    3300050: asteroid2_Asteroid8 1
+    3300052: asteroid2_Asteroid9
+    3300054: asteroid2_Asteroid9 1
+    3300056: cubeDebris_SpaceDebrisCube1
+    3300058: cubeDebris_SpaceDebrisCube1 1
+    3300060: cubeDebris_SpaceDebrisCube2
+    3300062: cubeDebris_SpaceDebrisCube2 1
+    3300064: cubeDebris_SpaceDebrisCube3
+    3300066: cubeDebris_SpaceDebrisCube3 1
+    3300068: cubeDebris_SpaceDebrisCube4
+    3300070: cubeDebris_SpaceDebrisCube4 1
+    3300072: cubeDebris_wire4
+    3300074: cubeDebris_wire4 1
+    3300076: cubeDebris_wire4 2
+    3300078: cubeDebris_wire4 3
+    3300080: cubeDebris_wire4 4
+    3300082: cubeDebris_wire4 5
+    3300084: cubeDebris_wire4 6
+    3300086: cubeDebris_wire4 7
+    3300088: cubeDebris_wire5
+    3300090: cubeDebris_wire5 1
+    3300092: cubeDebris_wire5 2
+    3300094: cubeDebris_wire5 3
+    3300096: cubeDebris_wire5 4
+    3300098: cubeDebris_wire5 5
+    3300100: cubeDebris_wire5 6
+    3300102: cubeDebris_wire5 7
+    3300104: cubeDebris_wire6
+    3300106: cubeDebris_wire6 1
+    3300108: cubeDebris_wire6 2
+    3300110: cubeDebris_wire6 3
+    3300112: cubeDebris_wire6 4
+    3300114: cubeDebris_wire6 5
+    3300116: cubeDebris_wire6 6
+    3300118: cubeDebris_wire6 7
+    3300120: damagedShipDebris_Ship_Debris1
+    3300122: damagedShipDebris_Ship_Debris1 1
+    3300124: damagedShipDebris_Ship_Debris2
+    3300126: damagedShipDebris_Ship_Debris2 1
+    3300128: damagedShipDebris_Ship_Debris3
+    3300130: damagedShipDebris_Ship_Debris3 1
+    3300132: damagedShipDebris_Ship_Debris4
+    3300134: damagedShipDebris_Ship_Debris4 1
+    3300136: damagedShipDebris_Ship_Debris5
+    3300138: damagedShipDebris_Ship_Debris5 1
+    3300140: damagedShipDebris_Ship_Debris6
+    3300142: damagedShipDebris_Ship_Debris6 1
+    3300144: damagedShipDebris_Ship_Debris7
+    3300146: damagedShipDebris_Ship_Debris7 1
+    3300148: debris_Debris1
+    3300150: debris_Debris1 1
+    3300152: debris_Debris2
+    3300154: debris_Debris2 1
+    3300156: debris_Debris3
+    3300158: debris_Debris3 1
+    3300160: debris_Debris4
+    3300162: debris_Debris4 1
+    3300164: greyAsteroid_AsteroidGrey
+    3300166: greyAsteroid_AsteroidGrey 1
+    3300168: greyAsteroid_AsteroidGrey1
+    3300170: greyAsteroid_AsteroidGrey1 1
+    3300172: greyAsteroid_AsteroidGrey2
+    3300174: greyAsteroid_AsteroidGrey2 1
+    3300176: greyAsteroid_AsteroidGrey3
+    3300178: greyAsteroid_AsteroidGrey3 1
+    3300180: greyAsteroid_AsteroidGrey4
+    3300182: greyAsteroid_AsteroidGrey4 1
+    3300184: moreDebris_moreDebris
+    3300186: moreDebris_moreDebris 1
+    3300188: moreDebris_moreDebris1
+    3300190: moreDebris_moreDebris1 1
+    3300192: moreDebris_moreDebris2
+    3300194: moreDebris_moreDebris2 1
+    3300196: moreDebris_moreDebris3
+    3300198: moreDebris_moreDebris3 1
+    3300200: pasted__asteroid1_Asteroid4
+    3300202: pasted__asteroid1_Asteroid4 1
+    3300204: pasted__asteroid2_Asteroid5
+    3300206: pasted__asteroid2_Asteroid5 1
+    3300208: pasted__coneDebris_spaceDebrisCone
+    3300210: pasted__coneDebris_spaceDebrisCone 1
+    3300212: pasted__coneDebris_wire1
+    3300214: pasted__coneDebris_wire1 1
+    3300216: pasted__coneDebris_wire2
+    3300218: pasted__coneDebris_wire2 1
+    3300220: pasted__coneDebris_wire3
+    3300222: pasted__coneDebris_wire3 1
+    3300224: pasted__cubeDebris_SpaceDebrisCube
+    3300226: pasted__cubeDebris_SpaceDebrisCube 1
+    3300228: pasted__cubeDebris_wire4
+    3300230: pasted__cubeDebris_wire4 1
+    3300232: pasted__cubeDebris_wire5
+    3300234: pasted__cubeDebris_wire5 1
+    3300236: pasted__cubeDebris_wire6
+    3300238: pasted__cubeDebris_wire6 1
+    3300240: pasted__damagedSatallite_Satallite_Debris1
+    3300242: pasted__damagedSatallite_Satallite_Debris1 1
+    3300244: pasted__debris_Debris
+    3300246: pasted__debris_Debris 1
+    3300248: pasted__discDebris_discDebris
+    3300250: pasted__discDebris_discDebris 1
+    3300252: satallite_Satallite_Debris
+    3300254: satallite_Satallite_Debris 1
+    3300256: satallite_Satallite_Debris1
+    3300258: satallite_Satallite_Debris1 1
+    3300260: ship_debris2_sheetMEtal_Debris2
+    3300262: ship_debris2_sheetMEtal_Debris2 1
+    3300264: ship_debris2_sheetMEtal_Debris3
+    3300266: ship_debris2_sheetMEtal_Debris3 1
+    3300268: ship_Debris_Ship_Debris
+    3300270: ship_Debris_Ship_Debris 1
+    4300000: armDebris_armDebris
+    4300002: asteroid1_Asteroid1
+    4300004: asteroid2_Asteroid2
+    4300006: damagedShipDebris_Ship_Debris1
+    4300008: asteroid2_Asteroid3
+    4300010: asteroid1_Asteroid2
+    4300012: damagedShipDebris_Ship_Debris2
+    4300014: cubeDebris_SpaceDebrisCube1
+    4300016: cubeDebris_wire4
+    4300018: cubeDebris_wire5
+    4300020: cubeDebris_wire6
+    4300022: asteroid2_Asteroid4
+    4300024: asteroid1_Asteroid3
+    4300026: debris_Debris1
+    4300028: damagedShipDebris_Ship_Debris3
+    4300030: greyAsteroid_AsteroidGrey
+    4300032: greyAsteroid_AsteroidGrey1
+    4300034: greyAsteroid_AsteroidGrey2
+    4300036: debris_Debris2
+    4300038: asteroid2_Asteroid6
+    4300040: cubeDebris_SpaceDebrisCube2
+    4300042: cubeDebris_wire4
+    4300044: cubeDebris_wire5
+    4300046: cubeDebris_wire6
+    4300048: moreDebris_moreDebris
+    4300050: moreDebris_moreDebris1
+    4300052: asteroid2_Asteroid7
+    4300054: satallite_Satallite_Debris
+    4300056: damagedShipDebris_Ship_Debris4
+    4300058: greyAsteroid_AsteroidGrey3
+    4300060: moreDebris_moreDebris2
+    4300062: debris_Debris3
+    4300064: armDebris_armDebris1
+    4300066: damagedShipDebris_Ship_Debris5
+    4300068: ship_Debris_Ship_Debris
+    4300070: ship_debris2_sheetMEtal_Debris2
+    4300072: ship_debris2_sheetMEtal_Debris3
+    4300074: asteroid2_Asteroid8
+    4300076: moreDebris_moreDebris3
+    4300078: greyAsteroid_AsteroidGrey4
+    4300080: asteroid2_Asteroid9
+    4300082: cubeDebris_SpaceDebrisCube3
+    4300084: cubeDebris_wire4
+    4300086: cubeDebris_wire5
+    4300088: cubeDebris_wire6
+    4300090: satallite_Satallite_Debris1
+    4300092: debris_Debris4
+    4300094: damagedShipDebris_Ship_Debris6
+    4300096: cubeDebris_SpaceDebrisCube4
+    4300098: cubeDebris_wire4
+    4300100: cubeDebris_wire5
+    4300102: cubeDebris_wire6
+    4300104: asteroid1_Asteroid5
+    4300106: asteroid2_Asteroid10
+    4300108: damagedShipDebris_Ship_Debris7
+    4300110: armDebris_armDebris
+    4300112: asteroid1_Asteroid1
+    4300114: asteroid2_Asteroid2
+    4300116: damagedShipDebris_Ship_Debris1
+    4300118: asteroid2_Asteroid3
+    4300120: asteroid1_Asteroid2
+    4300122: damagedShipDebris_Ship_Debris2
+    4300124: cubeDebris_SpaceDebrisCube1
+    4300126: cubeDebris_wire4
+    4300128: cubeDebris_wire5
+    4300130: cubeDebris_wire6
+    4300132: asteroid2_Asteroid4
+    4300134: asteroid1_Asteroid3
+    4300136: debris_Debris1
+    4300138: damagedShipDebris_Ship_Debris3
+    4300140: greyAsteroid_AsteroidGrey
+    4300142: greyAsteroid_AsteroidGrey1
+    4300144: greyAsteroid_AsteroidGrey2
+    4300146: debris_Debris2
+    4300148: asteroid2_Asteroid6
+    4300150: cubeDebris_SpaceDebrisCube2
+    4300152: cubeDebris_wire4
+    4300154: cubeDebris_wire5
+    4300156: cubeDebris_wire6
+    4300158: moreDebris_moreDebris
+    4300160: moreDebris_moreDebris1
+    4300162: asteroid2_Asteroid7
+    4300164: satallite_Satallite_Debris
+    4300166: damagedShipDebris_Ship_Debris4
+    4300168: greyAsteroid_AsteroidGrey3
+    4300170: moreDebris_moreDebris2
+    4300172: debris_Debris3
+    4300174: armDebris_armDebris1
+    4300176: damagedShipDebris_Ship_Debris5
+    4300178: ship_Debris_Ship_Debris
+    4300180: ship_debris2_sheetMEtal_Debris2
+    4300182: ship_debris2_sheetMEtal_Debris3
+    4300184: asteroid2_Asteroid8
+    4300186: moreDebris_moreDebris3
+    4300188: greyAsteroid_AsteroidGrey4
+    4300190: asteroid2_Asteroid9
+    4300192: cubeDebris_SpaceDebrisCube3
+    4300194: cubeDebris_wire4
+    4300196: cubeDebris_wire5
+    4300198: cubeDebris_wire6
+    4300200: satallite_Satallite_Debris1
+    4300202: debris_Debris4
+    4300204: damagedShipDebris_Ship_Debris6
+    4300206: cubeDebris_SpaceDebrisCube4
+    4300208: cubeDebris_wire4
+    4300210: cubeDebris_wire5
+    4300212: cubeDebris_wire6
+    4300214: asteroid1_Asteroid5
+    4300216: asteroid2_Asteroid10
+    4300218: damagedShipDebris_Ship_Debris7
+    4300220: pasted__coneDebris_spaceDebrisCone
+    4300222: pasted__coneDebris_wire3
+    4300224: pasted__coneDebris_wire1
+    4300226: pasted__coneDebris_wire2
+    4300228: pasted__cubeDebris_SpaceDebrisCube
+    4300230: pasted__cubeDebris_wire4
+    4300232: pasted__cubeDebris_wire5
+    4300234: pasted__cubeDebris_wire6
+    4300236: pasted__damagedSatallite_Satallite_Debris1
+    4300238: pasted__debris_Debris
+    4300240: pasted__discDebris_discDebris
+    4300242: pasted__asteroid1_Asteroid4
+    4300244: pasted__asteroid2_Asteroid5
+    4300246: pasted__coneDebris_spaceDebrisCone
+    4300248: pasted__coneDebris_wire3
+    4300250: pasted__coneDebris_wire1
+    4300252: pasted__coneDebris_wire2
+    4300254: pasted__cubeDebris_SpaceDebrisCube
+    4300256: pasted__cubeDebris_wire4
+    4300258: pasted__cubeDebris_wire5
+    4300260: pasted__cubeDebris_wire6
+    4300262: pasted__damagedSatallite_Satallite_Debris1
+    4300264: pasted__debris_Debris
+    4300266: pasted__discDebris_discDebris
+    4300268: pasted__asteroid1_Asteroid4
+    4300270: pasted__asteroid2_Asteroid5
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

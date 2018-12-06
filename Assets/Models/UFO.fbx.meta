@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: ee8277ada002c27499c2af1b2202b388
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: badBoyCow_cow
+    100002: badBoyCow_ear_left
+    100004: badBoyCow_ear_right
+    100006: badBoyCow_eyeball_left
+    100008: badBoyCow_eyeball_right
+    100010: badBoyCow_group1
+    100012: badBoyCow_pCylinder1
+    100014: badBoyCow_pCylinder2
+    100016: badBoyCow_pCylinder3
+    100018: badBoyCow_pCylinder4
+    100020: badBoyCow_pTorus1
+    100022: badBoyCow_pTorus2
+    100024: badBoyCow_pTorus3
+    100026: Base
+    100028: directionalLight2
+    100030: Dome
+    100032: group1
+    100034: Inside_Lights
+    100036: Outside_Lights_Bottom
+    100038: Outside_Lights_Top
+    100040: pSphere1
+    100042: pSphere1 1
+    100044: pSphere1 2
+    100046: pSphere10
+    100048: pSphere10 1
+    100050: pSphere10 2
+    100052: pSphere11
+    100054: pSphere11 1
+    100056: pSphere11 2
+    100058: pSphere12
+    100060: pSphere12 1
+    100062: pSphere12 2
+    100064: pSphere13
+    100066: pSphere13 1
+    100068: pSphere13 2
+    100070: pSphere14
+    100072: pSphere14 1
+    100074: pSphere14 2
+    100076: pSphere15
+    100078: pSphere15 1
+    100080: pSphere15 2
+    100082: pSphere16
+    100084: pSphere16 1
+    100086: pSphere16 2
+    100088: pSphere2
+    100090: pSphere2 1
+    100092: pSphere2 2
+    100094: pSphere3
+    100096: pSphere3 1
+    100098: pSphere3 2
+    100100: pSphere4
+    100102: pSphere4 1
+    100104: pSphere4 2
+    100106: pSphere5
+    100108: pSphere5 1
+    100110: pSphere5 2
+    100112: pSphere6
+    100114: pSphere6 1
+    100116: pSphere6 2
+    100118: pSphere7
+    100120: pSphere7 1
+    100122: pSphere7 2
+    100124: pSphere8
+    100126: pSphere8 1
+    100128: pSphere8 2
+    100130: pSphere9
+    100132: pSphere9 1
+    100134: pSphere9 2
+    100136: //RootNode
+    400000: badBoyCow_cow
+    400002: badBoyCow_ear_left
+    400004: badBoyCow_ear_right
+    400006: badBoyCow_eyeball_left
+    400008: badBoyCow_eyeball_right
+    400010: badBoyCow_group1
+    400012: badBoyCow_pCylinder1
+    400014: badBoyCow_pCylinder2
+    400016: badBoyCow_pCylinder3
+    400018: badBoyCow_pCylinder4
+    400020: badBoyCow_pTorus1
+    400022: badBoyCow_pTorus2
+    400024: badBoyCow_pTorus3
+    400026: Base
+    400028: directionalLight2
+    400030: Dome
+    400032: group1
+    400034: Inside_Lights
+    400036: Outside_Lights_Bottom
+    400038: Outside_Lights_Top
+    400040: pSphere1
+    400042: pSphere1 1
+    400044: pSphere1 2
+    400046: pSphere10
+    400048: pSphere10 1
+    400050: pSphere10 2
+    400052: pSphere11
+    400054: pSphere11 1
+    400056: pSphere11 2
+    400058: pSphere12
+    400060: pSphere12 1
+    400062: pSphere12 2
+    400064: pSphere13
+    400066: pSphere13 1
+    400068: pSphere13 2
+    400070: pSphere14
+    400072: pSphere14 1
+    400074: pSphere14 2
+    400076: pSphere15
+    400078: pSphere15 1
+    400080: pSphere15 2
+    400082: pSphere16
+    400084: pSphere16 1
+    400086: pSphere16 2
+    400088: pSphere2
+    400090: pSphere2 1
+    400092: pSphere2 2
+    400094: pSphere3
+    400096: pSphere3 1
+    400098: pSphere3 2
+    400100: pSphere4
+    400102: pSphere4 1
+    400104: pSphere4 2
+    400106: pSphere5
+    400108: pSphere5 1
+    400110: pSphere5 2
+    400112: pSphere6
+    400114: pSphere6 1
+    400116: pSphere6 2
+    400118: pSphere7
+    400120: pSphere7 1
+    400122: pSphere7 2
+    400124: pSphere8
+    400126: pSphere8 1
+    400128: pSphere8 2
+    400130: pSphere9
+    400132: pSphere9 1
+    400134: pSphere9 2
+    400136: //RootNode
+    2100000: lambert3
+    2100002: lambert2
+    2100004: phong1
+    2100006: aiStandardSurface3
+    2100008: badBoyCow_cow_colour
+    2100010: badBoyCow_blinn1
+    2100012: badBoyCow_blinn4
+    2100014: badBoyCow_blinn5
+    2100016: badBoyCow_lambert5
+    2100018: badBoyCow_lambert6
+    2100020: badBoyCow_lambert1
+    2100022: badBoyCow_lambert7
+    2300000: badBoyCow_cow
+    2300002: badBoyCow_ear_left
+    2300004: badBoyCow_ear_right
+    2300006: badBoyCow_eyeball_left
+    2300008: badBoyCow_eyeball_right
+    2300010: badBoyCow_pCylinder1
+    2300012: badBoyCow_pCylinder2
+    2300014: badBoyCow_pCylinder3
+    2300016: badBoyCow_pCylinder4
+    2300018: badBoyCow_pTorus1
+    2300020: badBoyCow_pTorus2
+    2300022: badBoyCow_pTorus3
+    2300024: Base
+    2300026: Dome
+    2300028: pSphere1
+    2300030: pSphere1 1
+    2300032: pSphere1 2
+    2300034: pSphere10
+    2300036: pSphere10 1
+    2300038: pSphere10 2
+    2300040: pSphere11
+    2300042: pSphere11 1
+    2300044: pSphere11 2
+    2300046: pSphere12
+    2300048: pSphere12 1
+    2300050: pSphere12 2
+    2300052: pSphere13
+    2300054: pSphere13 1
+    2300056: pSphere13 2
+    2300058: pSphere14
+    2300060: pSphere14 1
+    2300062: pSphere14 2
+    2300064: pSphere15
+    2300066: pSphere15 1
+    2300068: pSphere15 2
+    2300070: pSphere16
+    2300072: pSphere16 1
+    2300074: pSphere16 2
+    2300076: pSphere2
+    2300078: pSphere2 1
+    2300080: pSphere2 2
+    2300082: pSphere3
+    2300084: pSphere3 1
+    2300086: pSphere3 2
+    2300088: pSphere4
+    2300090: pSphere4 1
+    2300092: pSphere4 2
+    2300094: pSphere5
+    2300096: pSphere5 1
+    2300098: pSphere5 2
+    2300100: pSphere6
+    2300102: pSphere6 1
+    2300104: pSphere6 2
+    2300106: pSphere7
+    2300108: pSphere7 1
+    2300110: pSphere7 2
+    2300112: pSphere8
+    2300114: pSphere8 1
+    2300116: pSphere8 2
+    2300118: pSphere9
+    2300120: pSphere9 1
+    2300122: pSphere9 2
+    3300000: badBoyCow_cow
+    3300002: badBoyCow_ear_left
+    3300004: badBoyCow_ear_right
+    3300006: badBoyCow_eyeball_left
+    3300008: badBoyCow_eyeball_right
+    3300010: badBoyCow_pCylinder1
+    3300012: badBoyCow_pCylinder2
+    3300014: badBoyCow_pCylinder3
+    3300016: badBoyCow_pCylinder4
+    3300018: badBoyCow_pTorus1
+    3300020: badBoyCow_pTorus2
+    3300022: badBoyCow_pTorus3
+    3300024: Base
+    3300026: Dome
+    3300028: pSphere1
+    3300030: pSphere1 1
+    3300032: pSphere1 2
+    3300034: pSphere10
+    3300036: pSphere10 1
+    3300038: pSphere10 2
+    3300040: pSphere11
+    3300042: pSphere11 1
+    3300044: pSphere11 2
+    3300046: pSphere12
+    3300048: pSphere12 1
+    3300050: pSphere12 2
+    3300052: pSphere13
+    3300054: pSphere13 1
+    3300056: pSphere13 2
+    3300058: pSphere14
+    3300060: pSphere14 1
+    3300062: pSphere14 2
+    3300064: pSphere15
+    3300066: pSphere15 1
+    3300068: pSphere15 2
+    3300070: pSphere16
+    3300072: pSphere16 1
+    3300074: pSphere16 2
+    3300076: pSphere2
+    3300078: pSphere2 1
+    3300080: pSphere2 2
+    3300082: pSphere3
+    3300084: pSphere3 1
+    3300086: pSphere3 2
+    3300088: pSphere4
+    3300090: pSphere4 1
+    3300092: pSphere4 2
+    3300094: pSphere5
+    3300096: pSphere5 1
+    3300098: pSphere5 2
+    3300100: pSphere6
+    3300102: pSphere6 1
+    3300104: pSphere6 2
+    3300106: pSphere7
+    3300108: pSphere7 1
+    3300110: pSphere7 2
+    3300112: pSphere8
+    3300114: pSphere8 1
+    3300116: pSphere8 2
+    3300118: pSphere9
+    3300120: pSphere9 1
+    3300122: pSphere9 2
+    4300000: Base
+    4300002: Dome
+    4300004: pSphere5
+    4300006: pSphere6
+    4300008: pSphere7
+    4300010: pSphere8
+    4300012: pSphere4
+    4300014: pSphere3
+    4300016: pSphere2
+    4300018: pSphere1
+    4300020: pSphere9
+    4300022: pSphere10
+    4300024: pSphere11
+    4300026: pSphere12
+    4300028: pSphere13
+    4300030: pSphere14
+    4300032: pSphere15
+    4300034: pSphere16
+    4300036: pSphere5
+    4300038: pSphere6
+    4300040: pSphere7
+    4300042: pSphere8
+    4300044: pSphere4
+    4300046: pSphere3
+    4300048: pSphere2
+    4300050: pSphere1
+    4300052: pSphere9
+    4300054: pSphere10
+    4300056: pSphere11
+    4300058: pSphere12
+    4300060: pSphere13
+    4300062: pSphere14
+    4300064: pSphere15
+    4300066: pSphere16
+    4300068: pSphere16
+    4300070: pSphere15
+    4300072: pSphere14
+    4300074: pSphere13
+    4300076: pSphere12
+    4300078: pSphere11
+    4300080: pSphere10
+    4300082: pSphere9
+    4300084: pSphere1
+    4300086: pSphere2
+    4300088: pSphere3
+    4300090: pSphere4
+    4300092: pSphere8
+    4300094: pSphere7
+    4300096: pSphere6
+    4300098: pSphere5
+    4300100: badBoyCow_cow
+    4300102: badBoyCow_ear_left
+    4300104: badBoyCow_ear_right
+    4300106: badBoyCow_eyeball_left
+    4300108: badBoyCow_eyeball_right
+    4300110: badBoyCow_pTorus1
+    4300112: badBoyCow_pTorus2
+    4300114: badBoyCow_pTorus3
+    4300116: badBoyCow_pCylinder1
+    4300118: badBoyCow_pCylinder2
+    4300120: badBoyCow_pCylinder3
+    4300122: badBoyCow_pCylinder4
+    10800000: directionalLight2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

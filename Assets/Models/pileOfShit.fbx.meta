@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 4dbf7e240e36d204c91600c1ac20f6ec
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: armDebris
+    100002: Asteroid1
+    100004: Asteroid2
+    100006: AsteroidGrey
+    100008: AsteroidGrey1
+    100010: Debris
+    100012: discDebris
+    100014: moreDebris
+    100016: //RootNode
+    100018: randomDebris
+    100020: Satallite_Debris
+    100022: Satallite_Debris1
+    100024: sheetMEtal_Debris
+    100026: sheetMEtal_Debris1
+    100028: sheetMEtal_Debris2
+    100030: Ship_Debris
+    100032: Ship_Debris1
+    100034: solarPanel
+    100036: solarPanel_damaged
+    100038: spaceDebrisCone
+    100040: SpaceDebrisCube
+    100042: wire1
+    100044: wire2
+    100046: wire3
+    100048: wire4
+    100050: wire5
+    100052: wire6
+    400000: armDebris
+    400002: Asteroid1
+    400004: Asteroid2
+    400006: AsteroidGrey
+    400008: AsteroidGrey1
+    400010: Debris
+    400012: discDebris
+    400014: moreDebris
+    400016: //RootNode
+    400018: randomDebris
+    400020: Satallite_Debris
+    400022: Satallite_Debris1
+    400024: sheetMEtal_Debris
+    400026: sheetMEtal_Debris1
+    400028: sheetMEtal_Debris2
+    400030: Ship_Debris
+    400032: Ship_Debris1
+    400034: solarPanel
+    400036: solarPanel_damaged
+    400038: spaceDebrisCone
+    400040: SpaceDebrisCube
+    400042: wire1
+    400044: wire2
+    400046: wire3
+    400048: wire4
+    400050: wire5
+    400052: wire6
+    2100000: asteroidText
+    2100002: ShinyMetal
+    2100004: blinn1
+    2100006: solarPanelText
+    2100008: lambert7
+    2100010: WireColor2
+    2300000: armDebris
+    2300002: Asteroid1
+    2300004: Asteroid2
+    2300006: AsteroidGrey
+    2300008: AsteroidGrey1
+    2300010: Debris
+    2300012: discDebris
+    2300014: moreDebris
+    2300016: randomDebris
+    2300018: Satallite_Debris
+    2300020: Satallite_Debris1
+    2300022: sheetMEtal_Debris
+    2300024: sheetMEtal_Debris1
+    2300026: sheetMEtal_Debris2
+    2300028: Ship_Debris
+    2300030: Ship_Debris1
+    2300032: solarPanel
+    2300034: solarPanel_damaged
+    2300036: spaceDebrisCone
+    2300038: SpaceDebrisCube
+    2300040: wire1
+    2300042: wire2
+    2300044: wire3
+    2300046: wire4
+    2300048: wire5
+    2300050: wire6
+    3300000: armDebris
+    3300002: Asteroid1
+    3300004: Asteroid2
+    3300006: AsteroidGrey
+    3300008: AsteroidGrey1
+    3300010: Debris
+    3300012: discDebris
+    3300014: moreDebris
+    3300016: randomDebris
+    3300018: Satallite_Debris
+    3300020: Satallite_Debris1
+    3300022: sheetMEtal_Debris
+    3300024: sheetMEtal_Debris1
+    3300026: sheetMEtal_Debris2
+    3300028: Ship_Debris
+    3300030: Ship_Debris1
+    3300032: solarPanel
+    3300034: solarPanel_damaged
+    3300036: spaceDebrisCone
+    3300038: SpaceDebrisCube
+    3300040: wire1
+    3300042: wire2
+    3300044: wire3
+    3300046: wire4
+    3300048: wire5
+    3300050: wire6
+    4300000: Asteroid1
+    4300002: Asteroid2
+    4300004: Satallite_Debris
+    4300006: Satallite_Debris1
+    4300008: Ship_Debris
+    4300010: Debris
+    4300012: Ship_Debris1
+    4300014: sheetMEtal_Debris
+    4300016: sheetMEtal_Debris1
+    4300018: sheetMEtal_Debris2
+    4300020: AsteroidGrey
+    4300022: AsteroidGrey1
+    4300024: solarPanel
+    4300026: solarPanel_damaged
+    4300028: spaceDebrisCone
+    4300030: wire3
+    4300032: wire1
+    4300034: wire2
+    4300036: SpaceDebrisCube
+    4300038: wire4
+    4300040: wire5
+    4300042: wire6
+    4300044: randomDebris
+    4300046: discDebris
+    4300048: armDebris
+    4300050: moreDebris
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
