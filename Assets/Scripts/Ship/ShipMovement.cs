@@ -19,12 +19,12 @@ public class ShipMovement : MonoBehaviour
     private float m_TurnInputValue;             // The current value of the turn input.
     private float m_OriginalPitch;              // The pitch of the audio source at the start of the scene.
 
-    private int m_powerTime;
-    private bool m_speedBoost;
-    private float m_boost;
+    public int m_powerTime;
+    public bool m_speedBoost;
+    public float m_boost;
 
-    private bool m_hasCow;
-    private bool m_coolDown;
+    public bool m_hasCow;
+    public bool m_coolDown;
     public int m_moonCows = 11;
 
     private void Awake()
@@ -90,20 +90,20 @@ public class ShipMovement : MonoBehaviour
 
     void OnTriggerEnter(Collider col) //resets the health on collide, dont forget to check set trigger in unity
     {
-        if (col.gameObject.CompareTag("SpeedBoost"))
-        {
-            if (m_speedBoost == false)
-            {
-                StartCoroutine(SpeedBoost(col));
+        //if (col.gameObject.CompareTag("SpeedBoost"))
+        //{
+        //    if (m_speedBoost == false)
+        //    {
+        //        StartCoroutine(SpeedBoost(col));
 
-                GameObject spawned = GameObject.Find("Powerup_Spawner");
-                RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
-                spawner.m_spawned = false;
-                //GameObject.Find("Powerup_Spawner").m_spawned = false;
-                col.gameObject.SetActive(false);
-            }
-        }
-        else if (col.gameObject.CompareTag("Cow"))
+        //        GameObject spawned = GameObject.Find("Powerup_Spawner");
+        //        RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
+        //        spawner.m_spawned = false;
+        //        //GameObject.Find("Powerup_Spawner").m_spawned = false;
+        //        col.gameObject.SetActive(false);
+        //    }
+        //}
+        /*else if (col.gameObject.CompareTag("Cow"))
         {
             //if the player doesnt have a cow then pick it up
             if (m_hasCow == false && m_coolDown == false)
@@ -135,8 +135,8 @@ public class ShipMovement : MonoBehaviour
                 Debug.Log("Has Cow");
                 m_hasCow = true;
             }
-        }
-        else if (col.gameObject.CompareTag("Bullet"))
+        }*/
+        if (col.gameObject.CompareTag("Bullet"))
         {
             if (m_hasCow)
             {
@@ -151,7 +151,7 @@ public class ShipMovement : MonoBehaviour
         }
     }
 
-    IEnumerator SpeedBoost(Collider player)
+    public IEnumerator SpeedBoost(Collider player)
     {
         m_speedBoost = true;
         Debug.Log("More Speed");
@@ -161,20 +161,33 @@ public class ShipMovement : MonoBehaviour
 
         m_Speed *= m_boost;
         m_TurnSpeed *= m_boost;
+        Transform[] ts = gameObject.GetComponentsInChildren<Transform>();
+        Transform childTransform = null;
+        foreach (Transform child in ts)
+        {
+            if(child.tag == "SpeedBoost_Feedback")
+            {
+                childTransform = child;
+                print("found it");
+            }
+            //child is your child transform
+        }
 
-        GameObject.Find("speed_feedback").transform.localScale = new Vector3(1, 1, 1);
+        childTransform.localScale = new Vector3(1, 1, 1);
+        //GameObject.FindChildWithTag("SpeedBoost_Feedback").transform.localScale = new Vector3(1, 1, 1);
 
         //Pauses this funtion for this amount of time
         yield return new WaitForSeconds(m_powerTime);
         m_Speed = tempSpeed;
         m_TurnSpeed = tempTurnSpeed;
-        GameObject.Find("speed_feedback").transform.localScale = new Vector3(100, 100, 100);
+        childTransform.localScale = new Vector3(100, 100, 100);
+        //GameObject.FindChildWithTag("SpeedBoost_Feedback").transform.localScale = new Vector3(100, 100, 100);
         m_speedBoost = false;
         Debug.Log("End of Speed Boost");
         //remove the shield model
     }
 
-    IEnumerator CoolDown(Collider player)
+    public IEnumerator CoolDown(Collider player)
     {
         //Pauses this funtion for this amount of time
         yield return new WaitForSeconds(m_powerTime);
