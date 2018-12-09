@@ -177,7 +177,7 @@ public class ShipMovement : MonoBehaviour
         //GameObject.FindChildWithTag("SpeedBoost_Feedback").transform.localScale = new Vector3(1, 1, 1);
 
         //Pauses this funtion for this amount of time
-        yield return new WaitForSeconds(m_powerTime);
+        yield return new WaitForSecondsRealtime(m_powerTime);
         m_Speed = tempSpeed;
         m_TurnSpeed = tempTurnSpeed;
         childTransform.localScale = new Vector3(100, 100, 100);

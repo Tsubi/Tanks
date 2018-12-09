@@ -14,12 +14,12 @@ public class ShipHealth : MonoBehaviour
 
     private AudioSource m_ExplosionAudio;
     private ParticleSystem m_ExplosionParticles;
-    private float m_CurrentHealth;
+    public float m_CurrentHealth;
     private bool m_Dead;
 
-    private int m_powerTime;
+    public int m_powerTime;
     public bool m_CanDamage;
-    private bool m_DoubleDamage;
+    public bool m_DoubleDamage;
 
     Vector3 spawnPos;
 
@@ -46,72 +46,101 @@ public class ShipHealth : MonoBehaviour
         SetHealthUI();
     }
 
-    void OnTriggerEnter(Collider col) //resets the health on collide, dont forget to check set trigger in unity
-    {
-        Debug.Log("Collision!");
-        if (col.gameObject.CompareTag("Repair"))
-        {
-            m_CurrentHealth = m_StartingHealth;
-            SetHealthUI();
+    //void OnTriggerEnter(Collider col) //resets the health on collide, dont forget to check set trigger in unity
+    //{
+    //    Debug.Log("Collision!");
+    //    if (col.gameObject.CompareTag("Repair"))
+    //    {
+    //        m_CurrentHealth = m_StartingHealth;
+    //        SetHealthUI();
 
-            GameObject spawned = GameObject.Find("Powerup_Spawner");
-            RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
-            spawner.m_spawned = false;
+    //        GameObject spawned = GameObject.Find("Powerup_Spawner");
+    //        RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
+    //        spawner.m_spawned = false;
 
-            //GameObject.Find("Powerup_Spawner").m_spawned = false;
-            col.gameObject.SetActive(false);
-        }
-        else if (col.gameObject.CompareTag("Shield"))
-        {
-            StartCoroutine(Shield(col));
+    //        //GameObject.Find("Powerup_Spawner").m_spawned = false;
+    //        col.gameObject.SetActive(false);
+    //    }
+    //    else if (col.gameObject.CompareTag("Shield"))
+    //    {
+    //        StartCoroutine(Shield(col));
 
-            GameObject spawned = GameObject.Find("Powerup_Spawner");
-            RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
-            spawner.m_spawned = false;
+    //        GameObject spawned = GameObject.Find("Powerup_Spawner");
+    //        RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
+    //        spawner.m_spawned = false;
 
-            //GameObject.Find("Powerup_Spawner").m_spawned = false;
-            col.gameObject.SetActive(false);
-        }
-        else if (col.gameObject.CompareTag("FireRate"))
-        {
-            StartCoroutine(FireRate(col));
+    //        //GameObject.Find("Powerup_Spawner").m_spawned = false;
+    //        col.gameObject.SetActive(false);
+    //    }
+    //    else if (col.gameObject.CompareTag("FireRate"))
+    //    {
+    //        StartCoroutine(FireRate(col));
 
-            GameObject spawned = GameObject.Find("Powerup_Spawner");
-            RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
-            spawner.m_spawned = false;
+    //        GameObject spawned = GameObject.Find("Powerup_Spawner");
+    //        RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
+    //        spawner.m_spawned = false;
 
-            //GameObject.Find("Powerup_Spawner").m_spawned = false;
-            col.gameObject.SetActive(false);
-        }
-    }
+    //        //GameObject.Find("Powerup_Spawner").m_spawned = false;
+    //        col.gameObject.SetActive(false);
+    //    }
+    //}
 
-    IEnumerator Shield(Collider player)
+    public IEnumerator Shield(Collider player)
     {
         Debug.Log("No Damage");
         m_CanDamage = false;
 
-        GameObject.Find("shield_feedback").transform.localScale = new Vector3(1, 1, 1);
+
+        Transform[] ts = gameObject.GetComponentsInChildren<Transform>();
+        Transform childTransform = null;
+        foreach (Transform child in ts)
+        {
+            if (child.tag == "Shield_Feedback")
+            {
+                childTransform = child;
+                print("found it");
+            }
+            //child is your child transform
+        }
+
+        childTransform.localScale = new Vector3(1, 1, 1);
+        //GameObject.Find("shield_feedback").transform.localScale = new Vector3(1, 1, 1);
 
         //Pauses this funtion for this amount of time
-        yield return new WaitForSeconds(m_powerTime);
+        yield return new WaitForSecondsRealtime(m_powerTime);
         Debug.Log("End of Shield");
         m_CanDamage = true;
-        GameObject.Find("shield_feedback").transform.localScale = new Vector3(100, 100, 100);
+        childTransform.localScale = new Vector3(100, 100, 100);
+        //GameObject.Find("shield_feedback").transform.localScale = new Vector3(100, 100, 100);
         Debug.Log("Yes Damage");
         //remove the shield model
     }
 
-    IEnumerator FireRate(Collider player)
+    public IEnumerator FireRate(Collider player)
     {
         Debug.Log("Double Damage");
         m_DoubleDamage = true;
 
-        GameObject.Find("doubleDamage_feedback").transform.localScale = new Vector3(1, 1, 1);
+        Transform[] ts = gameObject.GetComponentsInChildren<Transform>();
+        Transform childTransform = null;
+        foreach (Transform child in ts)
+        {
+            if (child.tag == "FireRate_Feedback")
+            {
+                childTransform = child;
+                print("found it");
+            }
+            //child is your child transform
+        }
+
+        childTransform.localScale = new Vector3(1, 1, 1);
+        //GameObject.Find("doubleDamage_feedback").transform.localScale = new Vector3(1, 1, 1);
 
         //Pauses this funtion for this amount of time
-        yield return new WaitForSeconds(m_powerTime);
+        yield return new WaitForSecondsRealtime(m_powerTime);
 
         m_DoubleDamage = false;
+        childTransform.localScale = new Vector3(100, 100, 100);
         GameObject.Find("doubleDamage_feedback").transform.localScale = new Vector3(100, 100, 100);
     }
 
@@ -144,7 +173,7 @@ public class ShipHealth : MonoBehaviour
         }
     }
 
-    private void SetHealthUI()
+    public void SetHealthUI()
     {
         // Set the slider's value appropriately.
         m_Slider.value = m_CurrentHealth;
@@ -153,7 +182,7 @@ public class ShipHealth : MonoBehaviour
         m_FillImage.color = Color.Lerp(m_ZeroHealthColor, m_FullHealthColor, m_CurrentHealth / m_StartingHealth);
     }
 
-    private void OnDeath()
+    public void OnDeath()
     {
         // Set the flag so that this function is only called once.
         //m_Dead = true;

@@ -17,4 +17,24 @@ public class Repair : MonoBehaviour {
     {
         transform.Rotate(Vector3.down, speed * Time.deltaTime);
     }
+
+    void OnTriggerEnter(Collider col) //resets the health on collide, dont forget to check set trigger in unity
+    {
+        Debug.Log("Collision!");
+
+        GameObject player = col.gameObject;
+        ShipHealth shipHealth = player.GetComponent<ShipHealth>();
+
+        if (col.gameObject.CompareTag("Player"))
+        {
+            shipHealth.m_CurrentHealth = shipHealth.m_StartingHealth;
+            shipHealth.SetHealthUI();
+
+            GameObject spawned = GameObject.Find("Powerup_Spawner");
+            RandomPowerup spawner = spawned.GetComponent<RandomPowerup>();
+            spawner.m_spawned = false;
+
+            this.gameObject.SetActive(false);
+        }
+    }
 }
